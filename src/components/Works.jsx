@@ -1,19 +1,33 @@
-import React from 'react';
-import { projects } from '../constants';
-import Card from './Card';
+import React from "react";
+import { projects } from "../constants";
+import Card from "./Card";
+import ButtonLink from "./ButtonLink"; // Make sure to import ButtonLink
 
 const Works = () => {
   return (
-    <div className="projects bg-black px-4 py-16" id='works'>
-      <div className='text-white w-full sm:px-16 px-2'>
-        <p className='font-light'>MY WORK</p>
-        <h2 className='text-5xl font-extrabold mt-4'>Projects.</h2>
-        <p className='mt-3 text-[17px] max-w-3xl leading-[30px]'>I love learning by experimenting on things. I have built a couple of projects in this journey from small to very cool tech projects. I have also contributed to large-scale projects such as IBM's carbon-ui-builder 🚀. Here are a few of my personal projects. You can find the list of all projects in my <a className=' text-pink-300 hover:text-pink-400 duration-300' href="https://github.com/csgeeek" target='_blank'>Github</a> (including this portfolio 😜). Make sure to leave a star ✨ if you like those. </p>
+    <div className="projects bg-black px-4 py-16" id="works">
+      <div className="text-white w-full sm:px-16 px-2">
+        <h2 className="text-5xl font-extrabold mt-4">Projects</h2>
+        <p className="mt-3 text-[17px] max-w-3xl leading-[30px]">
+          Coding is my passion, and despite my busy schedule with internships
+          and schoolwork, I always find time to bring my ideas to life. These
+          projects are the result of my curiosity and dedication to learning new
+          technologies. Dive in to see what I've been working on!
+        </p>
+
+        {/* Add the View Github button here */}
+        <div className="mt-8">
+          <ButtonLink
+            url="https://github.com/Ishan3842" // Replace with your actual GitHub URL
+            text="View Github →"
+            padding={`p-3`}
+          />
+        </div>
       </div>
 
-      <div className='mt-20 flex justify-center flex-wrap gap-7'>
+      <div className="mt-20 flex justify-center flex-wrap gap-7">
         {projects.map((project) => (
-          <Card project={project} />
+          <Card key={project.id} project={project} />
         ))}
       </div>
     </div>

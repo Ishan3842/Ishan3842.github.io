@@ -1,168 +1,133 @@
-export const name = 'csgeek.';
+export const name = 'Ishan';
 
 export const experiences = [
     {
-        'company': 'SwitchOn',
-        'role': 'Software Development Engineer',
-        'duration': 'Nov 2023 - Present',
-        'logo': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrKWeYKoLW0mv_sIKhp-bfzbTfeQg4y_H9zg_QoTaf_VvpHkQ0lHS9KbHDKq7GHuKfwtE&usqp=CAU',
+        'company': 'L&T Technology Services',
+        'role': 'Software Engineer Intern',
+        'duration': 'June 2024 - August 2024',
+        'logo': 'l&t.png',
         'points': [
-            'WIP ⚙️',
-            'WIP 📈',
-            'WIP 📚'
+            'Developed a Flutter-based visitor management system with automated ID scanning and real-time face detection, successfully launching the app on Google Play Store and App store.',
+            'Integrated RESTful APIs built on Spring Boot, resulting in a 70% reduction in check-in time and enhanced multi-location security.',
+            'Implemented Bluetooth printer connectivity through flutter for instant badge creation and designed an efficient system for real-time data synchronization across distributed locations.',
         ],
-        'url': 'https://switchon.io/',
+        'url': 'https://www.ltts.com/',
     },
     {
-        'company': 'EdYoda',
-        'role': 'Software Development Engineer - II',
-        'duration': 'May 2023 - Nov 2023',
-        'logo': 'https://www.edyoda.com/favicon.ico',
+        'company': 'Tata Consultancy Services',
+        'role': 'Software Engineer Intern',
+        'duration': 'June 2023 - August 2023',
+        'logo': 'tcs.png',
         'points': [
-            'Building EdYoda App from scratch using React-Native 📱.',
-            'Debugged critical issue related to celery configuration on production which caused email delivery failure 🐛.',
-            'Pivoted the product with data-driven analysis and migrated back to Orders API which optimized Conversion Rates by 3% 📈.',
-            'Building a CI / CD pipeline from scratch with Jenkins to automate deployment process ⚙️.',
+            'Developed an automated algorithm categorization system with a 4-member team, reducing manual workload for software developers by 40%.',
+            'Partnered with a 5-member cross functional team (across product, engineering, sales, support) to define requirements, design, develop, and test a tool for automating data analysis saving around $20,000 within a tight timeline of 3 months.'
         ],
-        'url': 'https://www.edyoda.com/',
+        'url': 'https://www.tcs.com/',
     },
     {
-        'company': 'EdYoda',
-        'role': 'Software Developer Intern',
-        'duration': 'July 2022 - April 2023',
-        'logo': 'https://www.edyoda.com/favicon.ico',
+        'company': 'FIGHTRIGHT Technologies (AI-based Litigation start-up)',
+        'role': 'Data Science Intern',
+        'duration': 'May 2022 - August 2022',
+        'logo': 'fr.jpg',
         'points': [
-            'Led a project initiative and revamped the existing site to a subscription based model which added a new stream of revenue for the company. 🧑‍💻',
-            'Revised search functionality to display top content first by configuring search indexes on AWS Elasticsearch. 📈',
-            'Integrated Discourse Forum in our platform using Docker and implemented SSO. Configured application with AWS SES to send emails. 🐳',
+            'Achieved a 75% increase in accuracy by implementing an advanced algorithm for analyzing and extracting final judgments from 60,000+ apex and high court cases across India.',
+            'Innovated data cleaning techniques that reduced processing errors by 50% and saved 20 hours of labor per week, significantly enhancing the efficiency and accuracy of key data insights.'
         ],
-        'url': 'https://www.edyoda.com/',
+        'url': 'https://fightright.in/',
     },
-    {
-        'company': 'Coding Club, IIT Guwahati',
-        'role': 'Student Mentor',
-        'duration': 'Dec 2022 - Jan 2023',
-        'logo': 'https://yt3.googleusercontent.com/3Mf2jqOywHpFYAaPAOK7yReuUWyUrVtu-SMvXk5ra1IamiD4EbVATHwaDoU2FIbKMHkrOsxx=s176-c-k-c0x00ffffff-no-rj',
-        'points': [
-            'Mentored 20+ students and helped them to get started with FOSS. ❤️',
-            'Maintained open source projects on Github and mentored students to get a good grasp on technologies like Git, GitHub, MERN. 📚',
-        ],
-        'url': 'https://www.codepeak.tech/',
-    },
-    {
-        'company': 'Hack Club VIIT',
-        'role': 'Community Lead',
-        'duration': 'Jun 2022 - Jan 2023',
-        'logo': 'https://assets.hackclub.com/icon-rounded.svg',
-        'points': [
-            'Collaborated with 15+ Hackclub leads across the Asia-Pacific region and introduced suitable ideas to our community. 🌏',
-            'Hosted a Workshop on Back-end development in college with 100+ attendees. 📚',
-        ],
-        'url': 'https://hackclub.com/',
-    },
-    {
-        'company': 'Vignan\'s IIT ACM Student Chapter',
-        'role': 'Web Developer',
-        'duration': 'Oct 2021 - Nov 2022',
-        'logo': 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Association_for_Computing_Machinery_%28ACM%29_logo.svg/600px-Association_for_Computing_Machinery_%28ACM%29_logo.svg.png?20180220110824',
-        'points': [
-            'Design and deliver the UI/UX for the official ACM-VIIT website. 🎨',
-            'Collaborated with the team and organized Hackathons, and mentored 200+ students. 🤝',
-            'Organized seminars for 300+ students and gave insights on Web3.0, Networking and Competitive Programming. 📢',
-        ],
-        'url': 'https://vignanvizag.acm.org/',
-    }
 ]
+
+export const leadershipExperiences = [
+    {
+        'role': 'Undergraduate Teaching Assistant',
+        'description': 'Guiding over 1,000 students at the UW-Madison, I transformed complex concepts into understandable lessons. My knack for creating engaging learning materials and providing personalized support not only boosted students\' confidence but also significantly improved their understanding. This role sharpened my mentorship skills and taught me the importance of patience and effective communication in leadership.',
+        'image': 'peer-mentor.jpg'
+    },
+    {
+        'role': 'National Level Squash Player',
+        'description': 'Leading the West Bengal squash team to national prominence, I learned the value of strategy, discipline, and resilience. Something that started as a sibling rivalry turned into competing at the highest levels and achieving top rankings required not just physical prowess but also mental toughness. This experience instilled in me a relentless drive for excellence and the ability to lead by example, both on and off the court.',
+        'image': 'squash.jpg'
+    },
+    {
+        'role': 'WEBT Intern',
+        'description': 'As a Wisconsin Experience Bus Trip Intern at UW-Madison, I successfully managed a week-long event for 40 students, showcasing my organizational and logistical skills. From budget management to event planning, I ensured everything ran smoothly. This role highlighted my ability to handle pressure, lead a team, and execute plans meticulously. It reinforced my belief in the power of detailed planning and effective team coordination.',
+        'image': 'webt.jpeg'
+    }
+];
+
 
 
 export const projects = [
     {
-        'name': "Ambulance Tracker",
+        'name': "Culinary Canvas",
         'description':
-            "This web app assists hospitals by bridging the communication gap between Ambulance driver and hospital management especially during emergency cases.",
+            "A simple recipe searching app that helps you search receipes based on your choice of ingredients.",
         'tags': [
             {
-                'name': "react",
+                'name': "React-Native",
                 'color': "text-blue-500",
             },
             {
-                'name': "node",
+                'name': "MERN",
                 'color': "text-green-500",
             },
             {
-                'name': "websockets",
+                'name': "APIs",
                 'color': "text-pink-500",
             },
         ],
-        'image': 'https://opengraph.githubassets.com/ncds33asdhn12dkljipp9/csgeeek/Ambulance-tracker',
-        'source_code_link': "https://github.com/csgeeek/Ambulance-tracker",
+        'image': 'app.png',
+        'source_code_link': "https://github.com/Ishan3842/Recipe-App",
     },
     {
-        'name': "Scan to Healthify",
-        'description':
-            "This project identifies harmful ingredients in food products by capturing UPC of the barcode with the help of EasyOCR module and then displays the results. ",
+        'name': "Weather Dashboard",
+        'description': 'A weather dashboard that displays the weather for any city.',
         'tags': [
             {
-                'name': "react",
+                'name': "HTML",
                 'color': "text-blue-500",
             },
             {
-                'name': "fast api",
-                'color': "text-green-500",
+                'name': "CSS",
+                'color': "text-red-500",
             },
             {
-                'name': "firebase",
+                'name': "JavaScript",
+                'color': "text-yellow-500",
+            },
+            {
+                'name': "APIs",
                 'color': "text-pink-500",
+            },      
+            {
+                'name': "React",
+                'color': "text-purple-500",
             },
         ],
-        'image': 'https://opengraph.githubassets.com/ncds33asdhn12dkljipp9/csgeeek/scan-to-healthify/',
-        'source_code_link': "https://github.com/csgeeek/scan-to-healthify/",
-    },
-    {
-        'name': "Student Profile System",
-        'description':
-            "This project is built in Django and uses MySQL as the database. This webapp provides a central platform to monitor and track Colleges and their respective student profiles.",
-        'tags': [
-            {
-                'name': "django",
-                'color': "text-blue-500",
-            },
-            {
-                'name': "mysql",
-                'color': "text-green-500",
-            },
-            {
-                'name': "bootstrap",
-                'color': "text-pink-500",
-            },
-        ],
-        'image': 'https://opengraph.githubassets.com/ncds33asdhn12dkljipp9/csgeeek/student-profile-system',
-        'source_code_link': "https://github.com/csgeeek/student-profile-system",
-    },
+        'image': 'image.png',
+        'source_code_link': "https://github.com/Ishan3842/Weather-Dashboard",
+    } 
 ];
 
 export const services = [
     {
-        title: "Technology Enthusiast",
-        icon: 'web.png',
-    },
-    {
         title: "Software Engineer",
-        icon: 'web.png',
+        icon: 'swe.jpg',
     },
     {
-        title: "Gamer Forever",
-        icon: 'web.png',
+        title: "Traveler",
+        icon: 'london.jpeg',
+    },
+    {
+        title: "Foodie",
+        icon: 'foodie.jpg',
+    },
+    {
+        title: "Athlete",
+        icon: 'athlete.jpg',
     },
 ];
 
-export const companyColors = {
-    'EdYoda': 'text-blue-500',
-    'Coding Club, IIT Guwahati': 'text-purple-500',
-    'Hack Club VIIT': 'text-red-500',
-    'Vignan\'s IIT ACM Student Chapter': 'text-blue-500',
-};
-
-export const EMAIL_JS_SERVICE_ID = 'service_wytsw9t';
-export const EMAIL_JS_TEMPLATE_ID = 'template_wviporf';
-export const EMAIL_JS_PUBLIC_KEY = 'V-btpJRF5B_F6e_Cy';
+export const EMAIL_JS_SERVICE_ID = 'service_naj8uxe';
+export const EMAIL_JS_TEMPLATE_ID = 'template_qiti28a';
+export const EMAIL_JS_PUBLIC_KEY = 'ssS3dTKhkHdAE_N38';
