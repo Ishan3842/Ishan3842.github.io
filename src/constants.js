@@ -2,7 +2,7 @@ export const name = 'Ishan';
 
 export const experiences = [
     {
-        'company': 'L&T Technology Services',
+        'company': 'L&T Technology Services, Dallas TX',
         'role': 'Software Engineer Intern',
         'duration': 'June 2024 - August 2024',
         'logo': 'l&t.png',
@@ -14,7 +14,7 @@ export const experiences = [
         'url': 'https://www.ltts.com/',
     },
     {
-        'company': 'Tata Consultancy Services',
+        'company': 'Tata Consultancy Services, Bangalore IN',
         'role': 'Software Engineer Intern',
         'duration': 'June 2023 - August 2023',
         'logo': 'tcs.png',
@@ -25,7 +25,7 @@ export const experiences = [
         'url': 'https://www.tcs.com/',
     },
     {
-        'company': 'FIGHTRIGHT Technologies (AI-based Litigation start-up)',
+        'company': 'FIGHTRIGHT Technologies (AI-based Litigation start-up), Kolkata IN',
         'role': 'Data Science Intern',
         'duration': 'May 2022 - August 2022',
         'logo': 'fr.jpg',
