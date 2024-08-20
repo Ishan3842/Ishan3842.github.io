@@ -11,10 +11,13 @@ const Nav = () => {
         <div class="block text-3xl sm:hidden"></div>
         <ul class="hidden font-medium sm:flex space-x-4 sm:items-center sm:text-lg">
           <li>
-            <a href="#hero">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
             <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
           </li>
           <li>
             <a href="#experience">Experience</a>

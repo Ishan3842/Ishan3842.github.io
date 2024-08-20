@@ -36,37 +36,38 @@ const About = () => {
             <div className="space-y-6">
               <div>
                 <h3 className="text-2xl font-bold text-green-400">
-                  Tech Enthusiast & Problem Solver
+                  Tech Enthusiast & Creative Coder
                 </h3>
                 <p className="mt-2 text-[17px] leading-[30px]">
-                  👨‍💻 Hey there! I'm Ishan Bhutoria, currently wrapping up my
-                  Computer Science & Data Science studies at UW-Madison. I'm
-                  passionate about creating software that makes a difference and
-                  delving into the world of AI and data science.
+                  👋 Hey there! I'm Ishan, a soon-to-be graduate in Computer
+                  Science & Data Science from UW-Madison. I’m all about crafting
+                  cool software and diving into the fascinating realms of AI and
+                  data science.
                 </p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-blue-400">
-                  Code Craftsman
+                  Your Go-To Code Ninja
                 </h3>
                 <p className="mt-2 text-[17px] leading-[30px]">
-                  🚀 I enjoy working with a variety of technologies, from
-                  Flutter and React Native to Spring Boot and the MERN stack. My
-                  internships have given me the chance to develop smart visitor
-                  management systems and automated data analysis tools.
+                  💻 Whether it’s building apps with Flutter, React Native, or
+                  getting hands-on with the MERN stack and Spring Boot, I’m in
+                  my element. My internships have been exciting adventures where
+                  I’ve created smart visitor management systems and automated
+                  data-crunching tools.
                 </p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-purple-400">
-                  Beyond the Screen
+                  Off the Court and On the Tech Scene
                 </h3>
                 <p className="mt-2 text-[17px] leading-[30px]">
-                  🏆 When I'm not coding, you'll likely find me on the squash
-                  court. As a national-level player and former captain of the
-                  West Bengal team, I bring the same drive and teamwork to my
-                  tech projects.
+                  🏆 When I’m not immersed in code, you’ll find me on the squash
+                  court. I’ve played at the national level and even captained
+                  the West Bengal team. The teamwork and focus I bring to sports
+                  are the same qualities I channel into my tech projects.
                 </p>
               </div>
 
@@ -75,10 +76,10 @@ const About = () => {
                   Always Learning, Always Growing
                 </h3>
                 <p className="mt-2 text-[17px] leading-[30px]">
-                  🌟 I love staying updated with the latest tech trends,
-                  contributing to open-source projects, and planning outdoor
-                  adventures. My enthusiasm for leadership and community
-                  engagement keeps me active in campus activities and beyond.
+                  🚀 I’m a lifelong learner, always on the lookout for the
+                  latest in tech. I love contributing to open-source, staying
+                  active in campus life, and planning my next outdoor adventure.
+                  Leadership and community? I’m all in!
                 </p>
               </div>
             </div>

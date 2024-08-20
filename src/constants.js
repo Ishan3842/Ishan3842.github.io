@@ -1,5 +1,66 @@
 export const name = 'Ishan';
 
+export const technicalSkills = {
+    technologies: [
+        { name: "Java", experience: 4 },
+        { name: "Python", experience: 3 },
+        { name: "R", experience: 2 },
+        { name: "C", experience: 1 },
+        { name: "C++", experience: 1 },
+        { name: "HTML", experience: 2 },
+        { name: "CSS", experience: 2 },
+        { name: "JavaScript", experience: 2 },
+        { name: "MySQL", experience: 1 },
+        { name: "MongoDB", experience: 2 },
+    ],
+    frameworks: [
+        { name: "Flutter", experience: 1 },
+        { name: "React Native", experience: 1 },
+        { name: "ReactJS", experience: 2 },
+        { name: "Spring Boot", experience: 1 },
+        { name: "MERN Stack", experience: 1 },
+    ],
+    developerTools: [
+        { name: "Git", experience: 2 },
+        { name: "Linux", experience: 3 },
+        { name: "VSCode", experience: 4 },
+        { name: "Android Studio", experience: 1 },
+        { name: "Microsoft Azure", experience: 1 },
+        { name: "Postman", experience: 2 },
+        { name: "Eclipse", experience: 4 },
+        { name: "IntelliJ IDEA", experience: 4 },
+        { name: "Figma", experience: 1 },
+    ]
+};
+
+export const skillColors = {
+  Java: 'bg-purple-600',
+  Python: 'bg-green-500',
+  R: 'bg-blue-500',
+  C: 'bg-red-600',
+  'C++': 'bg-red-400',
+  HTML: 'bg-orange-500',
+  CSS: 'bg-blue-400',
+  JavaScript: 'bg-yellow-400',
+  MySQL: 'bg-blue-600',
+  MongoDB: 'bg-green-600',
+  Flutter: 'bg-cyan-400',
+  'React Native': 'bg-blue-300',
+  ReactJS: 'bg-blue-500',
+  'Spring Boot': 'bg-green-400',
+  'MERN Stack': 'bg-teal-500',
+  Git: 'bg-red-500',
+  Linux: 'bg-yellow-600',
+  VSCode: 'bg-blue-500',
+  'Android Studio': 'bg-green-500',
+  'Microsoft Azure': 'bg-blue-600',
+  Postman: 'bg-orange-500',
+  Eclipse: 'bg-purple-400',
+  'IntelliJ IDEA': 'bg-pink-500',
+  Figma: 'bg-purple-500'
+};
+
+
 export const experiences = [
     {
         'company': 'L&T Technology Services, Dallas TX',

@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { name } from "../constants";
 import { motion } from "framer-motion";
 
-const Hero = () => {
+const Home = () => {
   const ref = useRef(0);
   const [text, setText] = useState("");
 
@@ -20,7 +20,7 @@ const Hero = () => {
   return (
     <div
       className="hero relative h-[calc(100vh+4rem)] flex flex-col justify-center items-center text-white"
-      id="hero"
+      id="home"
     >
       <div className="px-4 text-center backdrop-blur-sm rounded-3xl">
         <h1 className="text-6xl sm:text-7xl font-extrabold mt-2">
@@ -49,4 +49,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;
