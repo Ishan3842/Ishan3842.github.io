@@ -138,7 +138,7 @@ export const projects = [
             },
         ],
         'image': 'app.png',
-        'source_code_link': "https://github.com/Ishan3842/Recipe-App",
+        'source_code_link': "https://github.com/Ishan3842/Culinary-Canvas",
     },
     {
         'name': "Weather Dashboard",
