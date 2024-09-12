@@ -30,7 +30,7 @@ const SkillSection = ({ skills }) => (
 
 const TabButton = ({ title, isActive, onClick }) => (
   <button
-    className={`px-4 py-2 font-semibold rounded-t-lg ${
+    className={`px-2 py-2 text-sm sm:text-base font-semibold rounded-t-lg ${
       isActive ? "bg-gray-800 text-white" : "bg-gray-700 text-gray-300"
     }`}
     onClick={onClick}
@@ -52,7 +52,7 @@ const TechnicalSkills = () => {
     <section className="bg-black py-16 px-4 w-screen" id="skills">
       <div className="container mx-auto">
         <p className="text-gray-400 font-light mb-2">
-          What do i bring to the table?
+          What do I bring to the table?
         </p>
         <h2 className="text-4xl sm:text-5xl font-extrabold text-white mb-12">
           Technical Skills
