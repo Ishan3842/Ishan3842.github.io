@@ -39,10 +39,9 @@ const About = () => {
                   Tech Enthusiast & Creative Coder
                 </h3>
                 <p className="mt-2 text-[17px] leading-[30px]">
-                  👋 Hey there! I'm Ishan, a soon-to-be graduate in Computer
-                  Science & Data Science from UW-Madison. I’m all about crafting
-                  cool software and diving into the fascinating realms of AI and
-                  data science.
+                  👋 Hey there! I'm Ishan, studying Computer Science & Data
+                  Science from UW-Madison. I’m all about crafting cool software
+                  and diving into the fascinating realms of AI and data science.
                 </p>
               </div>
 
