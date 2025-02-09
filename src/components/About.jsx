@@ -85,7 +85,7 @@ const About = () => {
 
             <div className="mt-8">
               <ButtonLink
-                url="https://drive.google.com/file/d/1OZgeBewidxMTO24kRHCRJHdDSmxMM96p/view?usp=sharing"
+                url="https://go.jooba.com/IQ3zs6c"
                 text="View Resume →"
                 padding={`p-3`}
               />
